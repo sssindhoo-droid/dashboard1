@@ -1,0 +1,72 @@
+import streamlit as st
+import pandas as pd
+import plotly.express as px
+
+# 1. Page Configuration
+st.set_page_config(page_title="PENG Strategy Portal", layout="wide", page_icon="🚀")
+
+# 2. Data Loading
+@st.cache_data
+def load_data():
+    # This loads the database file you will upload to GitHub
+    df = pd.read_csv('dashboard_database.csv')
+    return df
+
+try:
+    df = load_data()
+except:
+    st.error("⚠️ 'dashboard_database.csv' not found. Please upload it to your GitHub repo.")
+    st.stop()
+
+# 3. Sidebar Navigation & Filtering
+st.sidebar.title("🔍 PENG Navigation")
+all_teams = sorted(df['Team'].unique())
+selected_team = st.sidebar.selectbox("🎯 Select a Team View", ["Global Overview"] + list(all_teams))
+
+st.sidebar.markdown("---")
+st.sidebar.info("This portal visualizes the execution of Engineering Strategic Initiatives.")
+
+# 4. Main Dashboard Logic
+st.title("🚀 Engineering Initiatives Portal")
+
+if selected_team == "Global Overview":
+    # --- EXECUTIVE VIEW ---
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.metric("Total Initiatives", len(df['Initiative'].unique()))
+    with col2:
+        active = df[df['Burnup'] > 0]['Initiative'].nunique()
+        st.metric("Active Initiatives", active)
+    with col3:
+        st.metric("Strategic vs Maint", "52% / 48%")
+
+    st.markdown("---")
+    st.subheader("📊 Average Progress by Team")
+    team_progress = df.groupby('Team')['Burnup'].mean().reset_index().sort_values('Burnup')
+    fig = px.bar(team_progress, x='Burnup', y='Team', orientation='h', 
+                 color='Burnup', color_continuous_scale='Blues',
+                 labels={'Burnup': 'Avg Completion %'})
+    st.plotly_chart(fig, use_container_width=True)
+
+else:
+    # --- TEAM SPECIFIC VIEW ---
+    st.subheader(f"🛡️ {selected_team} Portfolio")
+    team_df = df[df['Team'] == selected_team]
+    
+    # Initiative Level Progress
+    init_summary = team_df[['Initiative', 'Burnup']].drop_duplicates()
+    
+    for _, row in init_summary.iterrows():
+        # Clean progress value for display
+        progress_val = float(row['Burnup']) / 100 if float(row['Burnup']) > 1 else float(row['Burnup'])
+        
+        st.write(f"**{row['Initiative']}**")
+        st.progress(min(progress_val, 1.0))
+        
+        # Deliverables drill-down
+        with st.expander(f"📋 View Deliverables for {row['Initiative']}"):
+            delivs = team_df[team_df['Initiative'] == row['Initiative']]
+            st.table(delivs[['Deliverable', 'Done']])
+
+st.markdown("---")
+st.caption("Data source: [PENG] Initiatives Execution Tracking Spreadsheet")
