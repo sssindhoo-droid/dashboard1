@@ -78,11 +78,11 @@ BEF,BEF - Streamlined Bootstrapping & Developer Experience,Templates with all th
 BEF,BEF - Streamlined Bootstrapping & Developer Experience,Internal developer portal to browse; customize; and launch templates,⬜,0.0,636.0,1040.0
 BEF,BEF - Streamlined Bootstrapping & Developer Experience,Internal throttling interface for service-to-service calls,⬜,0.0,636.0,1040.0
 BEF,BEF - Streamlined Bootstrapping & Developer Experience,Internal throttling interface for service-to-service calls,⬜,0.0,636.0,1040.0
-BEF,BEF - Language Agnosticism & Clear Service Requirements,Define and maintain a service requirements document,⬜,,232.5,1200.0
-BEF,BEF - Language Agnosticism & Clear Service Requirements,Use language-agnostic approaches when defining new features,⬜,,232.5,1200.0
-BEF,BEF - Language Agnosticism & Clear Service Requirements,Modular per feature base-service,⬜,,232.5,1200.0
-BEF,BEF - Language Agnosticism & Clear Service Requirements,Base-service expanded to support more use cases such as Quartz; Jooq or Lambda,⬜,,232.5,1200.0
-BEF,BEF - Language Agnosticism & Clear Service Requirements,OpenRewrite-based migration toolchain,⬜,,232.5,1200.0
+BEF,BEF - Language Agnosticism & Clear Service Requirements,Define and maintain a service requirements document,⬜,0.0,232.5,1200.0
+BEF,BEF - Language Agnosticism & Clear Service Requirements,Use language-agnostic approaches when defining new features,⬜,0.0,232.5,1200.0
+BEF,BEF - Language Agnosticism & Clear Service Requirements,Modular per feature base-service,⬜,0.0,232.5,1200.0
+BEF,BEF - Language Agnosticism & Clear Service Requirements,Base-service expanded to support more use cases such as Quartz; Jooq or Lambda,⬜,0.0,232.5,1200.0
+BEF,BEF - Language Agnosticism & Clear Service Requirements,OpenRewrite-based migration toolchain,⬜,0.0,232.5,1200.0
 BEF,BEF - Unified Inter-Service Communication,OpenAPI registry with version control and code generation,⬜,0.0,1147.5,1560.0
 BEF,BEF - Unified Inter-Service Communication,Unified CLI tool to test local changes easily; either locally or by deploying to the development environment,⬜,0.0,1147.5,1560.0
 BEF,BEF - Formalized Event-Driven Architecture (EDA),Shared event schema registry,⬜,0.0,0.0,0.0
