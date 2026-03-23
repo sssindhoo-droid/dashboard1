@@ -1,31 +1,38 @@
 Team,Initiative,Deliverable,Done,Burnup,Logged_Hours,Estimated_Hours,Maint_Hours
 SRE,SRE - Unified Incident Management,Centralized tooling declaration and retros.,✅,33.3,346.5,1040.0,120.0
 SRE,SRE - Unified Incident Management,Slack integration and auto-tagging,✅,33.3,346.5,1040.0,120.0
+SRE,SRE - Unified Incident Management,Auto-generation of incident retrospectives.,⬜,33.3,346.5,1040.0,120.0
+SRE,SRE - Unified Incident Management,Dashboard for incident trends and MTTR/MTTD.,✅,33.3,346.5,1040.0,120.0
 SRE,SRE - SLOs as First-Class Citizens,Templates and tooling for SLO definition.,✅,0.0,744.0,3120.0,250.0
 SRE,SRE - SLOs as First-Class Citizens,SLO dashboards embedded in Dev Portal,⬜,0.0,744.0,3120.0,250.0
+SRE,SRE - SLOs as First-Class Citizens,Deployment gates based on SLO health.,⬜,0.0,744.0,3120.0,250.0
 SRE,SRE - Elasticity & Load Validation,Load testing automated for critical paths,⬜,0.0,121.0,2080.0,45.0
 SRE,SRE - Chaos Engineering,Every service targetable by chaos tools,⬜,0.0,143.5,2080.0,10.0
+SRE,SRE - Engineering Health,Automated scoring of services based on health.,⬜,0.0,283.0,2080.0,30.0
 DevEx,DevEx - Developer Portal,Homepage redesign with quick access,✅,2.1,43.7,2080.0,15.0
 DevEx,DevEx - Developer Portal,Service catalog with ownership info,✅,2.1,43.7,2080.0,15.0
 DevEx,DevEx - Documentation Portal,Searchable documentation portal,⬜,0.0,0.0,2080.0,0.0
-DT,CICD - GitHub Management,Repository creation via Dev Portal templates,⬜,0.0,305.5,2080.0,85.0
-DT,CICD - GitHub Management,Automated branch protection rules,⬜,0.0,305.5,2080.0,85.0
-DT,Quality - Automated Testing,Universal test reporting dashboard,⬜,0.0,0.0,2080.0,0.0
+DevEx,DevEx - Local Experience,One-command local setup for all services.,⬜,0.0,0.0,2080.0,5.0
+DT,DT - GitHub Management,Repository creation via Dev Portal templates,⬜,0.0,305.5,2080.0,85.0
+DT,DT - GitHub Management,Automated branch protection rules,⬜,0.0,305.5,2080.0,85.0
+DT,DT - Automated Testing,Universal test reporting dashboard,⬜,0.0,0.0,2080.0,0.0
+DT,DT - Cloud Migration,Migration of legacy workloads to K8s,⬜,10.0,450.0,1500.0,100.0
+DT,DT - API Gateway,Centralized API management and security,⬜,5.0,120.0,2500.0,20.0
+DT,DT - Data Pipeline,Automated ETL workflows for analytics,⬜,0.0,0.0,1800.0,0.0
 BEF,BEF - Streamlined Bootstrapping,Templates with all service requirements,⬜,0.0,636.0,1040.0,80.0
 BEF,BEF - Streamlined Bootstrapping,Internal developer portal for templates,⬜,0.0,636.0,1040.0,80.0
 BEF,BEF - Language Agnosticism,Define and maintain service requirements doc,⬜,0.0,232.5,1200.0,12.0
 BEF,BEF - Unified Communication,OpenAPI registry with version control,⬜,0.0,0.0,2080.0,0.0
 BEF,BEF - Event-Driven Architecture,Shared event schema registry,⬜,0.0,0.0,1040.0,0.0
-BEF,BEF - Safe and Progressive Deployments,GitOps deployments and ArgoCD integration,⬜,30.0,2100.0,1816.0,400.0
-Infra,Infra - MAC Network Hub,Centralized definition of network components,✅,19.5,406.1,2080.0,320.0
-Infra,Infra - MAC Network Hub,Automated VPC provisioning,✅,19.5,406.1,2080.0,320.0
-Infra,Infra - MAC Network Hub,Standardized load balancer configs,⬜,19.5,406.1,2080.0,320.0
-Obs,Obs - Victoria Metrics migration,Support for remote-write for cardinality,✅,311.9,1198.0,384.0,100.0
-Obs,Obs - Victoria Metrics migration,Migration of all Prometheus targets,✅,311.9,1198.0,384.0,100.0
+BEF,BEF - Safe Deployments,GitOps deployments and ArgoCD integration,⬜,30.0,2100.0,1816.0,400.0
+Infra,Infra - Network Hub,Centralized definition of network components,✅,19.5,406.1,2080.0,320.0
+Infra,Infra - Network Hub,Automated VPC provisioning,✅,19.5,406.1,2080.0,320.0
+Obs,Obs - Victoria Metrics,Support for remote-write for cardinality,✅,311.9,1198.0,384.0,100.0
+Obs,Obs - Victoria Metrics,Migration of all Prometheus targets,✅,311.9,1198.0,384.0,100.0
 Obs,Obs - Grafana Enterprise,Logged in experience and RBAC,✅,27.5,1070.0,3886.0,500.0
-FEF,FEF - Eliminate Legacy,Remove Plasma-react and Backbone,⬜,0.0,1.3,1589.0,0.0
-FEF,FEF - Eliminate Legacy,Migrate all views to React 18,⬜,0.0,1.3,1589.0,0.0
 Security,Security - Secrets Management,Automated secret rotation with SLO tracking,✅,4.6,97.5,2080.0,110.0
 Security,Security - Secrets Management,Zero hardcoded secrets in codebases,⬜,4.6,97.5,2080.0,110.0
+FEF,FEF - Eliminate Legacy,Remove Plasma-react and Backbone,⬜,0.0,1.3,1589.0,0.0
+FEF,FEF - Eliminate Legacy,Migrate all views to React 18,⬜,0.0,1.3,1589.0,0.0
 FinOps,FinOps - Cost Visibility,Create profitability dashboards,⬜,0.0,0.2,1511.8,0.0
 FinOps,FinOps - Cost Visibility,Tagging compliance report,⬜,0.0,0.2,1511.8,0.0
