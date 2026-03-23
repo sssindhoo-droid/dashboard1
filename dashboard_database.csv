@@ -1,68 +1,31 @@
-Team,Initiative,Deliverable,Done,Burnup,Logged_Hours,Estimated_Hours
-SRE,SRE - SLOs as First-Class Citizens,Templates and tooling for SLO definition.,✅,0.0,744.0,3120.0
-SRE,SRE - SLOs as First-Class Citizens,SLO dashboards embedded in Dev Portal scorecards.,⬜,0.0,744.0,3120.0
-SRE,SRE - SLOs as First-Class Citizens,Deployment gates based on SLO health.,⬜,0.0,744.0,3120.0
-SRE,SRE - SLOs as First-Class Citizens,Automated infra and data recovery workflows.,⬜,0.0,744.0,3120.0
-SRE,SRE - SLOs as First-Class Citizens,DR status is displayed in Dev Portal.,⬜,0.0,744.0,3120.0
-SRE,SRE - SLOs as First-Class Citizens,Regular DR drills with observable results.,⬜,0.0,744.0,3120.0
-SRE,SRE - Elasticity by Design & Continuous Load Validation,Load testing is automated for critical paths.,⬜,0.0,121.0,2080.0
-SRE,SRE - Elasticity by Design & Continuous Load Validation,Synthetic peak-load tests are scheduled regularly.,⬜,0.0,121.0,2080.0
-SRE,SRE - Elasticity by Design & Continuous Load Validation,Horizontal scaling validated through test automation.,⬜,0.0,121.0,2080.0
-SRE,SRE - Elasticity by Design & Continuous Load Validation,Platform-wide monitoring for reliability anomalies.,⬜,0.0,121.0,2080.0
-SRE,SRE - Elasticity by Design & Continuous Load Validation,Automatic surfacing of reliability signals.,⬜,0.0,121.0,2080.0
-SRE,SRE - Elasticity by Design & Continuous Load Validation,Integration with Dev Portal to highlight reliability risks.,⬜,0.0,121.0,2080.0
-SRE,SRE - Chaos Engineering Auto-Onboarding,Every service is targetable by chaos tools out-of-the-box.,⬜,0.0,143.5,2080.0
-SRE,SRE - Chaos Engineering Auto-Onboarding,Key availability metrics are readily available.,⬜,0.0,143.5,2080.0
-SRE,SRE - Chaos Engineering Auto-Onboarding,Templates auto-configure chaos targets.,⬜,0.0,143.5,2080.0
-SRE,SRE - Chaos Engineering Auto-Onboarding,Chaos events are executed on a regular schedule.,⬜,0.0,143.5,2080.0
-SRE,SRE - Chaos Engineering Auto-Onboarding,Chaos activity reports are available in Dev Portal.,⬜,0.0,143.5,2080.0
-SRE,SRE - Chaos Engineering Auto-Onboarding,Chaos game days integrated into engineering culture.,⬜,0.0,143.5,2080.0
-SRE,SRE - Unified Incident Management,Centralized tooling declaration; escalation; retros.,✅,33.3,346.5,1040.0
-SRE,SRE - Unified Incident Management,Slack integration and auto-tagging.,✅,33.3,346.5,1040.0
-SRE,SRE - Unified Incident Management,Auto-generation of incident retrospectives.,⬜,33.3,346.5,1040.0
-SRE,SRE - Unified Incident Management,Dashboard for incident trends and MTTR/MTTD.,✅,33.3,346.5,1040.0
-SRE,SRE - Unified Incident Management,Standardized on-call rotations and alerting.,⬜,33.3,346.5,1040.0
-SRE,SRE - Unified Incident Management,Integration with status pages for transparency.,⬜,33.3,346.5,1040.0
-SRE,SRE - Engineering Health & Operational Maturity,Automated scoring of services based on health.,⬜,0.0,283.0,2080.0
-SRE,SRE - Engineering Health & Operational Maturity,Operational maturity rubrics in Dev Portal.,⬜,0.0,283.0,2080.0
-SRE,SRE - Engineering Health & Operational Maturity,Gamification of reliability improvements.,⬜,0.0,283.0,2080.0
-SRE,SRE - Engineering Health & Operational Maturity,Regular reviews of service health with teams.,⬜,0.0,283.0,2080.0
-SRE,SRE - Engineering Health & Operational Maturity,Actionable insights for improving operational excellence.,⬜,0.0,283.0,2080.0
-SRE,SRE - Engineering Health & Operational Maturity,Executive dashboard for engineering health.,⬜,0.0,283.0,2080.0
-DevEx,DevEx - Documentation as a First-Class Citizen,Standardized documentation templates.,⬜,0.0,0.0,2080.0
-DevEx,DevEx - Documentation as a First-Class Citizen,Searchable documentation portal.,⬜,0.0,0.0,2080.0
-DevEx,DevEx - Documentation as a First-Class Citizen,Automated checks for doc completeness.,⬜,0.0,0.0,2080.0
-DevEx,DevEx - Developer Portal,Homepage redesign with quick access.,✅,2.1,43.7,2080.0
-DevEx,DevEx - Developer Portal,Service catalog with ownership information.,✅,2.1,43.7,2080.0
-DevEx,DevEx - Developer Portal,Self-service actions for common tasks.,⬜,2.1,43.7,2080.0
-DevEx,DevEx - Developer Portal,Integration with CI/CD pipelines.,⬜,2.1,43.7,2080.0
-DevEx,DevEx - Local Development Experience,One-command local setup for all services.,⬜,0.0,0.0,2080.0
-DevEx,DevEx - Local Development Experience,Standardized dev containers.,⬜,0.0,0.0,2080.0
-DevEx,DevEx - Local Development Experience,Blazing fast hot-reload for all stacks.,⬜,0.0,0.0,2080.0
-DT,CICD - Streamline GitHub Management,Repository creation via Dev Portal templates.,⬜,0.0,305.5,2080.0
-DT,CICD - Streamline GitHub Management,Automated branch protection rules.,⬜,0.0,305.5,2080.0
-DT,CICD - Streamline GitHub Management,Standardized CI workflows for all languages.,⬜,0.0,305.5,2080.0
-DT,Quality - Automated Testing Framework,Universal test reporting dashboard.,⬜,0.0,0.0,2080.0
-DT,Quality - Automated Testing Framework,Integration of security scanning in CI.,⬜,0.0,0.0,2080.0
-DT,Quality - Automated Testing Framework,Automated performance regression testing.,⬜,0.0,0.0,2080.0
-BEF,BEF - Streamlined Bootstrapping & Developer Experience,Templates with service requirements baked in.,⬜,0.0,636.0,1040.0
-BEF,BEF - Streamlined Bootstrapping & Developer Experience,Internal developer portal for templates.,⬜,0.0,636.0,1040.0
-BEF,BEF - Language Agnosticism & Clear Service Requirements,Define service requirements document.,⬜,0.0,232.5,1200.0
-BEF,BEF - Unified Inter-Service Communication,OpenAPI registry with version control.,⬜,0.0,0.0,2080.0
-BEF,BEF - Safe and Progressive Deployments,GitOps deployments and ArgoCD integration.,⬜,30.0,543.8,1816.0
-Infra,Infra - MAC Network Hub,Centralized definition of network components.,✅,19.5,406.1,2080.0
-Infra,Infra - MAC Network Hub,Automated VPC provisioning.,✅,19.5,406.1,2080.0
-Infra,Infra - MAC Network Hub,Standardized load balancer configurations.,⬜,19.5,406.1,2080.0
-Obs,Obs - Victoria Metrics migration,Support for remote-write for cardinality.,✅,311.9,1198.0,384.0
-Obs,Obs - Victoria Metrics migration,Migration of all Prometheus targets.,✅,311.9,1198.0,384.0
-Obs,Obs - Grafana Enterprise,Logged in experience and RBAC.,✅,27.5,1070.0,3886.0
-Obs,Obs - Grafana Enterprise,Consolidated dashboards for all teams.,✅,27.5,1070.0,3886.0
-FEF,FEF - Eliminate Legacy & Standardize Stack,Remove Plasma-react and Backbone.,⬜,0.0,1.3,1589.0
-FEF,FEF - Eliminate Legacy & Standardize Stack,Migrate all views to React 18.,⬜,0.0,1.3,1589.0
-FEF,FEF - Eliminate Legacy & Standardize Stack,Standardized component library usage.,⬜,0.0,1.3,1589.0
-Security,Security - Secrets & Credentials Management,Automated secret rotation.,✅,4.6,97.5,2080.0
-Security,Security - Secrets & Credentials Management,SLO tracking for secret age.,✅,4.6,97.5,2080.0
-Security,Security - Secrets & Credentials Management,Zero hardcoded secrets in codebases.,⬜,4.6,97.5,2080.0
-FinOps,FinOps - Cost vs Profitability Visibility,Create profitability dashboards.,⬜,0.0,0.2,1511.8
-FinOps,FinOps - Cost vs Profitability Visibility,Tagging compliance report.,⬜,0.0,0.2,1511.8
-FinOps,FinOps - Cost vs Profitability Visibility,Automated cost anomaly alerts.,⬜,0.0,0.2,1511.8
+Team,Initiative,Deliverable,Done,Burnup,Logged_Hours,Estimated_Hours,Maint_Hours
+SRE,SRE - Unified Incident Management,Centralized tooling declaration and retros.,✅,33.3,346.5,1040.0,120.0
+SRE,SRE - Unified Incident Management,Slack integration and auto-tagging,✅,33.3,346.5,1040.0,120.0
+SRE,SRE - SLOs as First-Class Citizens,Templates and tooling for SLO definition.,✅,0.0,744.0,3120.0,250.0
+SRE,SRE - SLOs as First-Class Citizens,SLO dashboards embedded in Dev Portal,⬜,0.0,744.0,3120.0,250.0
+SRE,SRE - Elasticity & Load Validation,Load testing automated for critical paths,⬜,0.0,121.0,2080.0,45.0
+SRE,SRE - Chaos Engineering,Every service targetable by chaos tools,⬜,0.0,143.5,2080.0,10.0
+DevEx,DevEx - Developer Portal,Homepage redesign with quick access,✅,2.1,43.7,2080.0,15.0
+DevEx,DevEx - Developer Portal,Service catalog with ownership info,✅,2.1,43.7,2080.0,15.0
+DevEx,DevEx - Documentation Portal,Searchable documentation portal,⬜,0.0,0.0,2080.0,0.0
+DT,CICD - GitHub Management,Repository creation via Dev Portal templates,⬜,0.0,305.5,2080.0,85.0
+DT,CICD - GitHub Management,Automated branch protection rules,⬜,0.0,305.5,2080.0,85.0
+DT,Quality - Automated Testing,Universal test reporting dashboard,⬜,0.0,0.0,2080.0,0.0
+BEF,BEF - Streamlined Bootstrapping,Templates with all service requirements,⬜,0.0,636.0,1040.0,80.0
+BEF,BEF - Streamlined Bootstrapping,Internal developer portal for templates,⬜,0.0,636.0,1040.0,80.0
+BEF,BEF - Language Agnosticism,Define and maintain service requirements doc,⬜,0.0,232.5,1200.0,12.0
+BEF,BEF - Unified Communication,OpenAPI registry with version control,⬜,0.0,0.0,2080.0,0.0
+BEF,BEF - Event-Driven Architecture,Shared event schema registry,⬜,0.0,0.0,1040.0,0.0
+BEF,BEF - Safe and Progressive Deployments,GitOps deployments and ArgoCD integration,⬜,30.0,2100.0,1816.0,400.0
+Infra,Infra - MAC Network Hub,Centralized definition of network components,✅,19.5,406.1,2080.0,320.0
+Infra,Infra - MAC Network Hub,Automated VPC provisioning,✅,19.5,406.1,2080.0,320.0
+Infra,Infra - MAC Network Hub,Standardized load balancer configs,⬜,19.5,406.1,2080.0,320.0
+Obs,Obs - Victoria Metrics migration,Support for remote-write for cardinality,✅,311.9,1198.0,384.0,100.0
+Obs,Obs - Victoria Metrics migration,Migration of all Prometheus targets,✅,311.9,1198.0,384.0,100.0
+Obs,Obs - Grafana Enterprise,Logged in experience and RBAC,✅,27.5,1070.0,3886.0,500.0
+FEF,FEF - Eliminate Legacy,Remove Plasma-react and Backbone,⬜,0.0,1.3,1589.0,0.0
+FEF,FEF - Eliminate Legacy,Migrate all views to React 18,⬜,0.0,1.3,1589.0,0.0
+Security,Security - Secrets Management,Automated secret rotation with SLO tracking,✅,4.6,97.5,2080.0,110.0
+Security,Security - Secrets Management,Zero hardcoded secrets in codebases,⬜,4.6,97.5,2080.0,110.0
+FinOps,FinOps - Cost Visibility,Create profitability dashboards,⬜,0.0,0.2,1511.8,0.0
+FinOps,FinOps - Cost Visibility,Tagging compliance report,⬜,0.0,0.2,1511.8,0.0
