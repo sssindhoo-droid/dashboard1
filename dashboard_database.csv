@@ -5,200 +5,64 @@ SRE,SRE - SLOs as First-Class Citizens,Deployment gates based on SLO health.,⬜
 SRE,SRE - SLOs as First-Class Citizens,Automated infra and data recovery workflows.,⬜,0.0,744.0,3120.0
 SRE,SRE - SLOs as First-Class Citizens,DR status is displayed in Dev Portal.,⬜,0.0,744.0,3120.0
 SRE,SRE - SLOs as First-Class Citizens,Regular DR drills with observable results.,⬜,0.0,744.0,3120.0
-SRE,SRE - Elasticity by Design & Continuous Load Validation,Load testing is automated for critical paths.,⬜,0.0,384.0,1560.0
-SRE,SRE - Elasticity by Design & Continuous Load Validation,Synthetic peak-load tests are scheduled regularly.,⬜,0.0,384.0,1560.0
-SRE,SRE - Elasticity by Design & Continuous Load Validation,Horizontal scaling validated through test automation.,⬜,0.0,384.0,1560.0
-SRE,SRE - Elasticity by Design & Continuous Load Validation,Platform-wide monitoring for reliability anomalies across services and infrastructure.,⬜,0.0,384.0,1560.0
-SRE,SRE - Elasticity by Design & Continuous Load Validation,Automatic surfacing of reliability signals to reduce reliance on manual dashboards.,⬜,0.0,384.0,1560.0
-SRE,SRE - Elasticity by Design & Continuous Load Validation,Integration with Dev Portal to highlight reliability risks.,⬜,0.0,384.0,1560.0
-SRE,SRE - Chaos Engineering Auto-Onboarding,Every service is discoverable and targetable by chaos engineering tools out-of-the-box.,⬜,0.0,0.0,0.0
-SRE,SRE - Chaos Engineering Auto-Onboarding,Key availability metrics are readily available for each service.,⬜,0.0,0.0,0.0
-SRE,SRE - Chaos Engineering Auto-Onboarding,Templates auto-configure chaos targets and resiliency scorecards for new services.,⬜,0.0,0.0,0.0
-SRE,SRE - Chaos Engineering Auto-Onboarding,Chaos events are executed on a regular schedule.,⬜,0.0,0.0,0.0
-SRE,SRE - Chaos Engineering Auto-Onboarding,Chaos activity reports are available in Dev Portal.,⬜,0.0,0.0,0.0
-SRE,SRE - Chaos Engineering Auto-Onboarding,Chaos game days integrated into onboarding and quarterly reviews.,⬜,0.0,0.0,0.0
-SRE,SRE - Chaos Engineering Auto-Onboarding,Platform to correlate signals and identify likely root causes without SME intervention.,⬜,0.0,0.0,0.0
-SRE,SRE - Chaos Engineering Auto-Onboarding,Postmortem automation pipeline that pre-fills investigation data.,⬜,0.0,0.0,0.0
-SRE,SRE - Chaos Engineering Auto-Onboarding,Integration with incident and alerting systems.,⬜,0.0,0.0,0.0
-SRE,SRE - Dev Portal as the Ops Interface,Visibility: rollout status; service health; incidents.,⬜,0.0,0.0,0.0
-SRE,SRE - Dev Portal as the Ops Interface,Actionability: restarts; SLO editing; chaos test triggers; DR tools; configuration changes.,⬜,0.0,0.0,0.0
-SRE,SRE - Dev Portal as the Ops Interface,Dev onboarding: Dev Portal is the homepage and starting point for reliability work.,⬜,0.0,0.0,0.0
-SRE,SRE - Dev Portal as the Ops Interface,Migration of legacy Cloud Operations workflows to platform-native features.,⬜,0.0,0.0,0.0
-SRE,SRE - Dev Portal as the Ops Interface,Role-based access controls for production tasks.,⬜,0.0,0.0,0.0
-SRE,SRE - Dev Portal as the Ops Interface,Self-service capabilities are maintained for actions requiring occasional manual triggers.,⬜,0.0,0.0,0.0
-SRE,SRE - Unified Incident Management,Centralized tooling; declaration; escalation; retros.,✅,33.3,693.0,1040.0
-SRE,SRE - Unified Incident Management,Slack integration and auto-tagging of impacted systems.,⬜,33.3,693.0,1040.0
-SRE,SRE - Unified Incident Management,Postmortem templates with corrective action tracking.,✅,33.3,693.0,1040.0
-SRE,SRE - Unified Incident Management,Automated root cause analysis,⬜,33.3,693.0,1040.0
-DevEx,DevEx - Unified Scorecards,Scorecards are shown on all software components including new ones.,⬜,0.0,318.5,1560.0
-DevEx,DevEx - Unified Scorecards,Scorecards cover SLOs; cost; incident history; reliability; maturity.,⬜,0.0,318.5,1560.0
-DevEx,DevEx - Unified Scorecards,False,⬜,0.0,318.5,1560.0
-DevEx,DevEx - Self-Serve Operational Workflows,Interfaces for supported operations,⬜,0.0,0.0,0.0
-DevEx,DevEx - Self-Serve Operational Workflows,Integration with CI/CD; deployment; and incident tooling.,⬜,0.0,0.0,0.0
-DevEx,DevEx - Self-Serve Operational Workflows,Role-based access controls for safe usage is transitive to underlying systems,⬜,0.0,0.0,0.0
-DevEx,DevEx - Golden Paths and Dev Onboarding,Embedded golden paths for service creation; deployment; and SLO setup.,⬜,0.0,0.0,0.0
-DevEx,DevEx - Golden Paths and Dev Onboarding,Templates and examples linked in the portal.,⬜,0.0,0.0,0.0
-DevEx,DevEx - Golden Paths and Dev Onboarding,Onboarding checklists per team and archetype.,⬜,0.0,0.0,0.0
-DevEx,DevEx - Service and Ownership Catalog,Central registry auto-populated with service metadata.,⬜,0.0,846.0,2080.0
-DevEx,DevEx - Service and Ownership Catalog,Ownership mapping to GitHub; Slack; and on-call schedules.,⬜,0.0,846.0,2080.0
-DevEx,DevEx - Service and Ownership Catalog,Search filters by team; tech stack; tags; reliability; cost.,⬜,0.0,846.0,2080.0
-DevEx,DevEx - Developer Portal as the Default Entry Point,Homepage redesign with quick access to key workflows.,⬜,2.1,2185.5,520.0
-DevEx,DevEx - Developer Portal as the Default Entry Point,Deep links to deployments; monitoring; and documentation.,⬜,2.1,2185.5,520.0
-DevEx,DevEx - Developer Portal as the Default Entry Point,Embedded checklists; health status; and active incidents.,⬜,2.1,2185.5,520.0
-DT,CICD - Streamline GitHub Management,Repository creation via Dev Portal templates for all kind of projects; including a blank repository,⬜,0.0,0.0,0.0
-DT,CICD - Streamline GitHub Management,Membership (Github teams; repository privileges) mapped from identity system + functional groups,⬜,0.0,0.0,0.0
-DT,CICD - Streamline GitHub Management,Safe Settings + config as code in Git,⬜,0.0,0.0,0.0
-DT,CICD - Streamline GitHub Management,Reduced amount of GitHub administrators,⬜,0.0,0.0,0.0
-DT,CICD - Streamline GitHub Management,CI: A PR bot to help with the pull request experience by adding automatic merge; custom compliance checks,⬜,0.0,0.0,0.0
-DT,CICD - Streamline GitHub Management,CI: Automatic artifact deploying in production and in pull requests,⬜,0.0,0.0,0.0
-DT,CICD - Streamline GitHub Management,CI: Support ephemeral environments to experiment and deploy custom code from pull requests,⬜,0.0,0.0,0.0
-DT,CICD - Streamline GitHub Management,CI: Adapt a shift-left mantra to bring feedback on issues in pull requests; as opposed to when deploying,⬜,0.0,0.0,0.0
-DT,CICD - Streamline GitHub Management,CI: Golden CI solution for most of Coveo’s use cases is available,⬜,0.0,0.0,0.0
-DT,CICD - Streamline GitHub Management,CD: Improve speed of pipelines by optimizing parallelization and reuse of runners,⬜,0.0,0.0,0.0
-DT,"CICD - CI That’s Fast, Secure, and Scalable",CI runners hosted in secured; isolated AWS accounts,⬜,0.0,1643.0,1040.0
-DT,"CICD - CI That’s Fast, Secure, and Scalable",Runners managed in a scalable and reliable way,⬜,0.0,1643.0,1040.0
-DT,"CICD - CI That’s Fast, Secure, and Scalable",Replace Kayenta with a more flexible platform like Argo Rollouts,⬜,0.0,1643.0,1040.0
-DT,"CICD - CI That’s Fast, Secure, and Scalable",Enable plugins for custom rollout logic,⬜,0.0,1643.0,1040.0
-DT,"CICD - CI That’s Fast, Secure, and Scalable",Embrace continuous deployments2 by providing robust mechanism that only ask approval on a risky or unexpected change,⬜,0.0,1643.0,1040.0
-DT,CICD - Unified Artifact Management,Central system like JFrog or CloudSmith,⬜,0.0,2279.5,1560.0
-DT,CICD - Unified Artifact Management,Curation; promotion; provenance and proper access control are set up,⬜,0.0,2279.5,1560.0
-DT,CICD - Unified Artifact Management,Improved TGF performance,⬜,0.0,2279.5,1560.0
-DT,CICD - Unified Artifact Management,Static expansion of variables at package build creation time,⬜,0.0,2279.5,1560.0
-DT,CICD - Unified Artifact Management,Promote infrastructure decoupling from service code,⬜,0.0,2279.5,1560.0
-DT,CICD - Unified Artifact Management,Publish an ADR on TGF’s future and whether it’s the right tool for Coveo,⬜,0.0,2279.5,1560.0
-DT,CICD - GitOps for Kubernetes Delivery,ArgoCD as standard,⬜,0.0,604.5,2080.0
-DT,CICD - GitOps for Kubernetes Delivery,Removal of compare-manifest tooling,⬜,0.0,604.5,2080.0
-DT,CICD - GitOps for Kubernetes Delivery,Find and implement a replacement for Spinnaker,⬜,0.0,604.5,2080.0
-DT,CICD - Lambda Deployment,Proper opinionated phase of deploying lambdas in a safe way; with versioned rollouts with automatic rollbacks.,⬜,0.0,0.0,0.0
-DT,CICD - Lambda Deployment,SLSA Level 3,⬜,0.0,0.0,0.0
-DT,CICD - Lambda Deployment,Air gapped CI and CD AWS accounts,⬜,0.0,0.0,0.0
-DT,CICD - Lambda Deployment,Fully traceable and secure deployments,⬜,0.0,0.0,0.0
-DT,CICD - Lambda Deployment,Dynamic deployment roles with limited blast radius,⬜,0.0,0.0,0.0
-BEF,BEF - Streamlined Bootstrapping & Developer Experience,Templates with all the service requirements baked in such as CI; logging; metrics; auth; tracing; and SLOs; etc.,⬜,0.0,636.0,1040.0
-BEF,BEF - Streamlined Bootstrapping & Developer Experience,Internal developer portal to browse; customize; and launch templates,⬜,0.0,636.0,1040.0
-BEF,BEF - Streamlined Bootstrapping & Developer Experience,Internal throttling interface for service-to-service calls,⬜,0.0,636.0,1040.0
-BEF,BEF - Streamlined Bootstrapping & Developer Experience,Internal throttling interface for service-to-service calls,⬜,0.0,636.0,1040.0
-BEF,BEF - Language Agnosticism & Clear Service Requirements,Define and maintain a service requirements document,⬜,0.0,232.5,1200.0
-BEF,BEF - Language Agnosticism & Clear Service Requirements,Use language-agnostic approaches when defining new features,⬜,0.0,232.5,1200.0
-BEF,BEF - Language Agnosticism & Clear Service Requirements,Modular per feature base-service,⬜,0.0,232.5,1200.0
-BEF,BEF - Language Agnosticism & Clear Service Requirements,Base-service expanded to support more use cases such as Quartz; Jooq or Lambda,⬜,0.0,232.5,1200.0
-BEF,BEF - Language Agnosticism & Clear Service Requirements,OpenRewrite-based migration toolchain,⬜,0.0,232.5,1200.0
-BEF,BEF - Unified Inter-Service Communication,OpenAPI registry with version control and code generation,⬜,0.0,1147.5,1560.0
-BEF,BEF - Unified Inter-Service Communication,Unified CLI tool to test local changes easily; either locally or by deploying to the development environment,⬜,0.0,1147.5,1560.0
-BEF,BEF - Formalized Event-Driven Architecture (EDA),Shared event schema registry,⬜,0.0,0.0,0.0
-BEF,BEF - Formalized Event-Driven Architecture (EDA),SDKs for publishing and consuming events with observability,⬜,0.0,0.0,0.0
-BEF,BEF - Formalized Event-Driven Architecture (EDA),Base classes supporting API standards,⬜,0.0,0.0,0.0
-BEF,BEF - Formalized Event-Driven Architecture (EDA),Automatic validation of published APIs,⬜,0.0,0.0,0.0
-BEF,BEF - Safe and Progressive Deployments,GitOps deployments and ArgoCD integration,⬜,30.0,934.5,1560.0
-BEF,BEF - Safe and Progressive Deployments,Canary; shadow traffic; and feature flag frameworks,⬜,30.0,934.5,1560.0
-BEF,BEF - Safe and Progressive Deployments,Robust set of base metrics for safe deployments,⬜,30.0,934.5,1560.0
-BEF,BEF - Safe and Progressive Deployments,Easy-to-use test libraries for PRs,⬜,30.0,934.5,1560.0
-BEF,BEF - Safe and Progressive Deployments,Automated contract and performance testing for all public APIs,⬜,30.0,934.5,1560.0
-Infra,Infra - MAC Network Hub,Centralized definition of network components.,✅,19.5,843.5,2240.0
-Infra,Infra - MAC Network Hub,Account network registration process integrated in the account creation process.,✅,19.5,843.5,2240.0
-Infra,Infra - MAC Network Hub,Observability stack decoupled from the Kubernetes cluster(s) it monitors,⬜,19.5,843.5,2240.0
-Infra,Infra - MAC Network Hub,Support for decentralized configuration for applications deployed many times across regions and maturity levels,⬜,19.5,843.5,2240.0
-Infra,Infra - MAC Network Hub,Support for centralized configuration for applications that do not align with that model,⬜,19.5,843.5,2240.0
-Infra,Infra - Workload Identity Management,MAC integration; for creating workload accounts with isolated roles.,⬜,5.6,234.0,2080.0
-Infra,Infra - Workload Identity Management,Integration with managed capabilities of the MAC (secrets; databases; redis; etc).,⬜,5.6,234.0,2080.0
-Infra,Infra - Workload Identity Management,SPIRE implementation for connecting the IAM roles to service accounts on Kubernetes.,⬜,5.6,234.0,2080.0
-Infra,Infra - Workload Identity Management,Centralized Clusters,⬜,5.6,234.0,2080.0
-Infra,Infra - Workload Identity Management,IAM Roles and Monitoring stay behind in the monolithic accounts,⬜,5.6,234.0,2080.0
-Infra,Infra - Workload Identity Management,Side by Side cluster migration,⬜,5.6,234.0,2080.0
-Infra,Infra - Managed Pub/Sub Infrastructure,SNS and SQS implementation as a MAC capability,⬜,0.0,0.0,0.0
-Infra,Infra - Managed Pub/Sub Infrastructure,Intent based access granted through the centralized IAM roles,⬜,0.0,0.0,0.0
-Infra,Infra - Managed Pub/Sub Infrastructure,Monitoring baked into the Pub and Sub components.,⬜,0.0,0.0,0.0
-Infra,Infra - Managed Valkey Infrastructure,Shared centralized cluster for use cases that have low criticality,⬜,0.2,4.0,1072.0
-Infra,Infra - Managed Valkey Infrastructure,Centralized provisioning; monitoring and operation for clusters; shared or standalone,⬜,0.2,4.0,1072.0
-Infra,Infra - Managed Valkey Infrastructure,Access provided through the managed IAM role,⬜,0.2,4.0,1072.0
-Infra,Infra - Disaster Recovery Redesign,We have defined failure domains that are testable in isolation and combined.,⬜,0.0,0.0,0.0
-Infra,Infra - Disaster Recovery Redesign,Repeatable previous known scenarios are testable (SSM outage; Kinesis outage; Snowflake; etc).,⬜,0.0,0.0,0.0
-Obs,Obs - Victoria Metrics migration,Support for remote-write to offer flexible options for cardinality,✅,3.1,0.0,0.0
-Obs,Obs - Victoria Metrics migration,Integrated in the centralized Grafana Enterprise single pane of glass,✅,3.1,0.0,0.0
-Obs,Obs - Victoria Metrics migration,Integrated with scaling and deployment tooling,⬜,3.1,0.0,0.0
-Obs,Obs - Victoria Metrics migration,DevPortal templates for new projects include centralized observability resources that the dev teams don’t have to deploy themselves,⬜,3.1,0.0,0.0
-Obs,Obs - Victoria Metrics migration,Dev Portal templates for common infrastructure (DBs; caches; SNS/SQS) provides default operational observability and alerting,⬜,3.1,0.0,0.0
-Obs,Obs - Victoria Metrics migration,The intent is the interface between the dev team and observability team. The specific implementation is not (Custom Resource for example).,⬜,3.1,0.0,0.0
-Obs,Obs - Grafana Enterprise single pane of glass,Logged in experience,✅,27.5,0.0,0.0
-Obs,Obs - Grafana Enterprise single pane of glass,Correlations between signals,⬜,27.5,0.0,0.0
-Obs,Obs - Grafana Enterprise single pane of glass,Starting point for investigations; links to all other Observability tools,⬜,27.5,0.0,0.0
-Obs,Obs - Grafana Enterprise single pane of glass,Support for services that are defined once and deployed in all kube clusters,⬜,27.5,0.0,0.0
-Obs,Obs - Grafana Enterprise single pane of glass,Same level of support for workloads that are deployed outside of kubernetes; not following the classic dev; stg; prd; hip pattern.,⬜,27.5,0.0,0.0
-Obs,Obs - Log vendor analysis and migration,Select a more suitable log vendor with criteria: Costs; Storage/Scalability maintenance; Log structure flexibility; Ingestion delays; Native dashboards,⬜,0.0,0.0,0.0
-Obs,Obs - Log vendor analysis and migration,Integrated into the Grafana Enterprise single pane of glass,⬜,0.0,0.0,0.0
-Obs,Obs - Log vendor analysis and migration,RBAC support for restricted logs with potential customer data,⬜,0.0,0.0,0.0
-Obs,Obs - Improve integration with deployment pipeline,Grafana plugins or datasource configurations compatible with the deployment pipeline canary monitoring tool,⬜,0.0,0.0,0.0
-Obs,Obs - Improve integration with Kubernetes auto-scaling,Scaling based on Cloudwatch metrics possible without exporting metrics back to the metrics stack,⬜,0.0,0.0,0.0
-Obs,Obs - Improve integration with Kubernetes auto-scaling,Evaluate feasability for all other Grafana compatible datasources,⬜,0.0,0.0,0.0
-FEF,FEF - Eliminate Legacy & Standardize Stack,Remove Plasma-react and Backbone from admin-ui,⬜,0.0,1431.5,6240.0
-FEF,FEF - Eliminate Legacy & Standardize Stack,Migrate all tests to Vitest,⬜,0.0,1431.5,6240.0
-FEF,FEF - Eliminate Legacy & Standardize Stack,Pages uses the design system from Plasma-Mantine,⬜,0.0,1431.5,6240.0
-FEF,FEF - Eliminate Legacy & Standardize Stack,Redux is removed,⬜,0.0,1431.5,6240.0
-FEF,FEF - Eliminate Legacy & Standardize Stack,Policy‑as‑Code: Automated checks are integrated in IDE and enforced via the CI.,⬜,0.0,1431.5,6240.0
-FEF,FEF - Eliminate Legacy & Standardize Stack,Design Linter: Custom rule set enforcing component usage; import conventions; and layering.,⬜,0.0,1431.5,6240.0
-FEF,FEF - Eliminate Legacy & Standardize Stack,Reporting Dashboards: Weekly reports on standards violations (rules manually ignored).,⬜,0.0,1431.5,6240.0
-FEF,FEF - Instant Page Scaffolding,CLI tool: that ingests a Figma mockup and an OpenAPI definition to generate code (components; routes; queries; tests),⬜,0.0,1.5,4160.0
-FEF,FEF - Instant Page Scaffolding,Starter Templates: Seed page layouts (table/creation flow/edition flow) aligned to design system patterns.,⬜,0.0,1.5,4160.0
-FEF,FEF - Instant Page Scaffolding,Static Analysis Tool: A CLI or CI‑integrated script that parses the codebase’s imports/JSX to count references to every component from the design system,✅,0.0,1.5,4160.0
-FEF,FEF - Instant Page Scaffolding,Usage Reports & Dashboard: An automated report (and Dev Portal widget) showing component reference counts; grouped by hub; feature area; and trend over time.,⬜,0.0,1.5,4160.0
-FEF,FEF - Instant Page Scaffolding,CI Integration: A nightly job that runs the analyzer across all hubs; uploads results to a central data store.,⬜,0.0,1.5,4160.0
-FEF,FEF - Embed Observability & Confidence,CI Pipeline Enhancements: E2E tests are run before code reach the master branch,⬜,0.0,532.0,1040.0
-FEF,FEF - Embed Observability & Confidence,Visual testing integration: Visual tests are part of the blocking gates for deployments,⬜,0.0,532.0,1040.0
-FEF,FEF - Embed Observability & Confidence,Error visibility: Full Sentry integration with useful alerts in every hubs,⬜,0.0,532.0,1040.0
-FEF,FEF - Embed Observability & Confidence,Web vitals dashboards: Dev Portal offers a web vitals dashboard for every hub,⬜,0.0,532.0,1040.0
-FEF,FEF - Synchronize Design & Code,Design‑Component Toolkit: A living Figma library connected to the React component repo via CodeConnect.,⬜,0.0,1720.0,1560.0
-FEF,FEF - Synchronize Design & Code,One‑Click Token Sync: Automated pipeline that publishes updated design tokens (colors; spacing; typography; etc) from Figma into code.,⬜,0.0,1720.0,1560.0
-FEF,FEF - Synchronize Design & Code,Live Preview Embeds: ZeroHeight with live code demo and Figma integration.,⬜,0.0,1720.0,1560.0
-FEF,FEF - Centralize Dev Portal & Docs,Usage Metrics Dashboard: Charts showing most‑used components; test-pass rates; scaffold counts; and error trends.,⬜,0.0,0.0,0.0
-FEF,FEF - Centralize Dev Portal & Docs,Documentation is searchable: Our documentation is integrated in coveo@coveo to leverage all the existing tools we have,⬜,0.0,0.0,0.0
-Security,Security - Identity & Access Control Modernization,Unified identity platform across Entra ID and Okta.,⬜,0.0,734.0,4800.0
-Security,Security - Identity & Access Control Modernization,Centralized IAM policies; roles; and permission sets defined as code.,⬜,0.0,734.0,4800.0
-Security,Security - Identity & Access Control Modernization,StrongDM with Cedar policies for contextual access.,⬜,0.0,734.0,4800.0
-Security,Security - Identity & Access Control Modernization,Policy-based provisioning workflows owned by IT.,⬜,0.0,734.0,4800.0
-Security,Security - Identity & Access Control Modernization,Removal of remaining always-on access.,⬜,0.0,734.0,4800.0
-Security,Security - Identity & Access Control Modernization,SIEM/XDR with centralized alerting and tuning.,⬜,0.0,734.0,4800.0
-Security,Security - Identity & Access Control Modernization,Tracebit or equivalent decoy deployment.,⬜,0.0,734.0,4800.0
-Security,Security - Identity & Access Control Modernization,Runbooks and forensic playbooks versioned and exercised.,⬜,0.0,734.0,4800.0
-Security,Security - Identity & Access Control Modernization,MDR solution deployed and tested.,⬜,0.0,734.0,4800.0
-Security,Security - Vulnerability & Risk Remediation Automation,Reachability-aware scanning and CVE enrichment.,⬜,0.0,132.0,5200.0
-Security,Security - Vulnerability & Risk Remediation Automation,CI-integrated patching workflows and SLO dashboards.,⬜,0.0,132.0,5200.0
-Security,Security - Vulnerability & Risk Remediation Automation,SLA visualizations and breach alerts.,⬜,0.0,132.0,5200.0
-Security,Security - Vulnerability & Risk Remediation Automation,Developer triage desk and remediation support.,⬜,0.0,132.0,5200.0
-Security,Security - Vulnerability & Risk Remediation Automation,Dedicated time to look at vulnerabilities and act alongside development teams,⬜,0.0,132.0,5200.0
-Security,Security - Vulnerability & Risk Remediation Automation,Dedicated time to look at compliance issues and act alongside development teams,⬜,0.0,132.0,5200.0
-Security,Security - Secure Developer Experience,AppSec platform integrating SCA; IaC; SAST; DAST/IAST.,⬜,0.0,439.5,520.0
-Security,Security - Secure Developer Experience,IDE and CI integrations for actionable feedback.,⬜,0.0,439.5,520.0
-Security,Security - Secure Developer Experience,Git-based exception workflows with reviews.,⬜,0.0,439.5,520.0
-Security,Security - Secure Developer Experience,Real-time discovery of public-facing assets.,⬜,0.0,439.5,520.0
-Security,Security - Secure Developer Experience,DSPM solution integration and alert routing.,⬜,0.0,439.5,520.0
-Security,Security - Secure Developer Experience,DNS/change alerting and asset ownership tracking.,⬜,0.0,439.5,520.0
-Security,Security - Secure Developer Experience,Tagging for compliance zones (HIPAA; etc.).,⬜,0.0,439.5,520.0
-Security,Security - Secrets & Credentials Management,Automated secret rotation with SLO tracking and alerting.,⬜,4.7,445.0,1592.0
-Security,Security - Secrets & Credentials Management,Expiration enforcement and unused secret cleanup.,⬜,4.7,445.0,1592.0
-Security,Security - Secrets & Credentials Management,Migration to ephemeral credentials.,⬜,4.7,445.0,1592.0
-Security,Security - Secrets & Credentials Management,Self-serve threat modeling tool with drift detection.,⬜,4.7,445.0,1592.0
-Security,Security - Secrets & Credentials Management,Architecture review templates and SDLC integration.,⬜,4.7,445.0,1592.0
-Security,Security - Secrets & Credentials Management,Developer-facing security knowledge base and paved path patterns.,⬜,4.7,445.0,1592.0
-Security,Security - Secrets & Credentials Management,Exception workflow documentation with Git linkage.,⬜,4.7,445.0,1592.0
-Security,Security - Secure Software Supply Chain,SLSA L3 compliance for all prod artifacts.,⬜,0.0,1.0,2080.0
-Security,Security - Secure Software Supply Chain,OSS dependency gating and SBOM integration.,⬜,0.0,1.0,2080.0
-Security,Security - Secure Software Supply Chain,Verified artifact promotion policies.,⬜,0.0,1.0,2080.0
-Security,Security - Secure Software Supply Chain,Attestation and signing enforcement.,⬜,0.0,1.0,2080.0
-FinOps,FinOps - Cost vs Profitability Visibility,Create profitability dashboards that integrate cloud cost and sales data.,⬜,0.0,757.5,4160.0
-FinOps,FinOps - Cost vs Profitability Visibility,Ensure 99%+ accurate cost attribution to products and services.,⬜,0.0,757.5,4160.0
-FinOps,FinOps - Self-Service FinOps Enablement,Enhance reporting capabilities for team-level and product-level insights.,⬜,0.0,206.0,2080.0
-FinOps,FinOps - Self-Service FinOps Enablement,Provide self-serve budgeting and forecasting tools.,⬜,0.0,206.0,2080.0
-FinOps,FinOps - Self-Service FinOps Enablement,Expand the FinOps practice to teams beyond R&D engineering and Finance (PM/PO; Sales; etc.).,⬜,0.0,206.0,2080.0
-FinOps,FinOps - Self-Service FinOps Enablement,Embed cost checks into developer workflows.,⬜,0.0,206.0,2080.0
-FinOps,FinOps - Self-Service FinOps Enablement,Answer generic FinOps questions through Generative AI.,⬜,0.0,206.0,2080.0
-FinOps,FinOps - FinOps Culture & Engagement,Regular cross-team forums to share cost-saving successes.,⬜,0.0,29.5,1560.0
-FinOps,FinOps - FinOps Culture & Engagement,Incentivize teams to identify and resolve cost issues.,⬜,0.0,29.5,1560.0
-FinOps,FinOps - FinOps Culture & Engagement,Cost concerns are part of the feature design and development cycle.,⬜,0.0,29.5,1560.0
-FinOps,FinOps - FinOps Culture & Engagement,FinOps requirements and best practices are benchmarked in scorecards.,⬜,0.0,29.5,1560.0
-FinOps,FinOps - Cloud Costs Forecasting,Full cost-to-revenue mapping for all products and services.,⬜,0.0,177.0,2080.0
-FinOps,FinOps - Cloud Costs Forecasting,Enabling forecasting capabilities for status quo projections as well as net new feature estimations.,⬜,0.0,177.0,2080.0
-FinOps,FinOps - Cloud Costs Forecasting,All R&D teams report on and maintain their unit economics.,⬜,0.0,177.0,2080.0
-FinOps,FinOps - Cost Optimization Alerting,"Implement ""automated"" anomaly detection across all attribution levels.",⬜,0.0,0.0,0.0
-FinOps,FinOps - Cost Optimization Alerting,Notification system to prompt teams to take action on anomalies.,⬜,0.0,0.0,0.0
-FinOps,FinOps - Cost Optimization Alerting,Reporting to provide action items for cost improvements.,⬜,0.0,0.0,0.0
-FinOps,FinOps - Cost Optimization Alerting,Provide service cost profile comparisons.,⬜,0.0,0.0,0.0
+SRE,SRE - Elasticity by Design & Continuous Load Validation,Load testing is automated for critical paths.,⬜,0.0,121.0,2080.0
+SRE,SRE - Elasticity by Design & Continuous Load Validation,Synthetic peak-load tests are scheduled regularly.,⬜,0.0,121.0,2080.0
+SRE,SRE - Elasticity by Design & Continuous Load Validation,Horizontal scaling validated through test automation.,⬜,0.0,121.0,2080.0
+SRE,SRE - Elasticity by Design & Continuous Load Validation,Platform-wide monitoring for reliability anomalies.,⬜,0.0,121.0,2080.0
+SRE,SRE - Elasticity by Design & Continuous Load Validation,Automatic surfacing of reliability signals.,⬜,0.0,121.0,2080.0
+SRE,SRE - Elasticity by Design & Continuous Load Validation,Integration with Dev Portal to highlight reliability risks.,⬜,0.0,121.0,2080.0
+SRE,SRE - Chaos Engineering Auto-Onboarding,Every service is targetable by chaos tools out-of-the-box.,⬜,0.0,143.5,2080.0
+SRE,SRE - Chaos Engineering Auto-Onboarding,Key availability metrics are readily available.,⬜,0.0,143.5,2080.0
+SRE,SRE - Chaos Engineering Auto-Onboarding,Templates auto-configure chaos targets.,⬜,0.0,143.5,2080.0
+SRE,SRE - Chaos Engineering Auto-Onboarding,Chaos events are executed on a regular schedule.,⬜,0.0,143.5,2080.0
+SRE,SRE - Chaos Engineering Auto-Onboarding,Chaos activity reports are available in Dev Portal.,⬜,0.0,143.5,2080.0
+SRE,SRE - Chaos Engineering Auto-Onboarding,Chaos game days integrated into engineering culture.,⬜,0.0,143.5,2080.0
+SRE,SRE - Unified Incident Management,Centralized tooling declaration; escalation; retros.,✅,33.3,346.5,1040.0
+SRE,SRE - Unified Incident Management,Slack integration and auto-tagging.,✅,33.3,346.5,1040.0
+SRE,SRE - Unified Incident Management,Auto-generation of incident retrospectives.,⬜,33.3,346.5,1040.0
+SRE,SRE - Unified Incident Management,Dashboard for incident trends and MTTR/MTTD.,✅,33.3,346.5,1040.0
+SRE,SRE - Unified Incident Management,Standardized on-call rotations and alerting.,⬜,33.3,346.5,1040.0
+SRE,SRE - Unified Incident Management,Integration with status pages for transparency.,⬜,33.3,346.5,1040.0
+SRE,SRE - Engineering Health & Operational Maturity,Automated scoring of services based on health.,⬜,0.0,283.0,2080.0
+SRE,SRE - Engineering Health & Operational Maturity,Operational maturity rubrics in Dev Portal.,⬜,0.0,283.0,2080.0
+SRE,SRE - Engineering Health & Operational Maturity,Gamification of reliability improvements.,⬜,0.0,283.0,2080.0
+SRE,SRE - Engineering Health & Operational Maturity,Regular reviews of service health with teams.,⬜,0.0,283.0,2080.0
+SRE,SRE - Engineering Health & Operational Maturity,Actionable insights for improving operational excellence.,⬜,0.0,283.0,2080.0
+SRE,SRE - Engineering Health & Operational Maturity,Executive dashboard for engineering health.,⬜,0.0,283.0,2080.0
+DevEx,DevEx - Documentation as a First-Class Citizen,Standardized documentation templates.,⬜,0.0,0.0,2080.0
+DevEx,DevEx - Documentation as a First-Class Citizen,Searchable documentation portal.,⬜,0.0,0.0,2080.0
+DevEx,DevEx - Documentation as a First-Class Citizen,Automated checks for doc completeness.,⬜,0.0,0.0,2080.0
+DevEx,DevEx - Developer Portal,Homepage redesign with quick access.,✅,2.1,43.7,2080.0
+DevEx,DevEx - Developer Portal,Service catalog with ownership information.,✅,2.1,43.7,2080.0
+DevEx,DevEx - Developer Portal,Self-service actions for common tasks.,⬜,2.1,43.7,2080.0
+DevEx,DevEx - Developer Portal,Integration with CI/CD pipelines.,⬜,2.1,43.7,2080.0
+DevEx,DevEx - Local Development Experience,One-command local setup for all services.,⬜,0.0,0.0,2080.0
+DevEx,DevEx - Local Development Experience,Standardized dev containers.,⬜,0.0,0.0,2080.0
+DevEx,DevEx - Local Development Experience,Blazing fast hot-reload for all stacks.,⬜,0.0,0.0,2080.0
+DT,CICD - Streamline GitHub Management,Repository creation via Dev Portal templates.,⬜,0.0,305.5,2080.0
+DT,CICD - Streamline GitHub Management,Automated branch protection rules.,⬜,0.0,305.5,2080.0
+DT,CICD - Streamline GitHub Management,Standardized CI workflows for all languages.,⬜,0.0,305.5,2080.0
+DT,Quality - Automated Testing Framework,Universal test reporting dashboard.,⬜,0.0,0.0,2080.0
+DT,Quality - Automated Testing Framework,Integration of security scanning in CI.,⬜,0.0,0.0,2080.0
+DT,Quality - Automated Testing Framework,Automated performance regression testing.,⬜,0.0,0.0,2080.0
+BEF,BEF - Streamlined Bootstrapping & Developer Experience,Templates with service requirements baked in.,⬜,0.0,636.0,1040.0
+BEF,BEF - Streamlined Bootstrapping & Developer Experience,Internal developer portal for templates.,⬜,0.0,636.0,1040.0
+BEF,BEF - Language Agnosticism & Clear Service Requirements,Define service requirements document.,⬜,0.0,232.5,1200.0
+BEF,BEF - Unified Inter-Service Communication,OpenAPI registry with version control.,⬜,0.0,0.0,2080.0
+BEF,BEF - Safe and Progressive Deployments,GitOps deployments and ArgoCD integration.,⬜,30.0,543.8,1816.0
+Infra,Infra - MAC Network Hub,Centralized definition of network components.,✅,19.5,406.1,2080.0
+Infra,Infra - MAC Network Hub,Automated VPC provisioning.,✅,19.5,406.1,2080.0
+Infra,Infra - MAC Network Hub,Standardized load balancer configurations.,⬜,19.5,406.1,2080.0
+Obs,Obs - Victoria Metrics migration,Support for remote-write for cardinality.,✅,311.9,1198.0,384.0
+Obs,Obs - Victoria Metrics migration,Migration of all Prometheus targets.,✅,311.9,1198.0,384.0
+Obs,Obs - Grafana Enterprise,Logged in experience and RBAC.,✅,27.5,1070.0,3886.0
+Obs,Obs - Grafana Enterprise,Consolidated dashboards for all teams.,✅,27.5,1070.0,3886.0
+FEF,FEF - Eliminate Legacy & Standardize Stack,Remove Plasma-react and Backbone.,⬜,0.0,1.3,1589.0
+FEF,FEF - Eliminate Legacy & Standardize Stack,Migrate all views to React 18.,⬜,0.0,1.3,1589.0
+FEF,FEF - Eliminate Legacy & Standardize Stack,Standardized component library usage.,⬜,0.0,1.3,1589.0
+Security,Security - Secrets & Credentials Management,Automated secret rotation.,✅,4.6,97.5,2080.0
+Security,Security - Secrets & Credentials Management,SLO tracking for secret age.,✅,4.6,97.5,2080.0
+Security,Security - Secrets & Credentials Management,Zero hardcoded secrets in codebases.,⬜,4.6,97.5,2080.0
+FinOps,FinOps - Cost vs Profitability Visibility,Create profitability dashboards.,⬜,0.0,0.2,1511.8
+FinOps,FinOps - Cost vs Profitability Visibility,Tagging compliance report.,⬜,0.0,0.2,1511.8
+FinOps,FinOps - Cost vs Profitability Visibility,Automated cost anomaly alerts.,⬜,0.0,0.2,1511.8
